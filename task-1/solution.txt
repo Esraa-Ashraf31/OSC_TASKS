@@ -1,0 +1,16 @@
+1-mkdir esraa
+cd esraa
+2-touch one.txt two.txt three.txt four.txt
+3-mkdir BAD
+cd /home/osc/esraa/BAD
+touch bad.txt
+4-mv one.txt /home/osc/Downloads
+5-cd /home/osc/Downloads
+cp one.txt /home/osc/Downloads
+mv one.txt copy.txt
+6- cd /home/osc/esraa
+7- nano two.txt
+8- nano three.txt
+9- mv three.txt hello.txt
+10- rm four.txt
+11-rm -r BAD
